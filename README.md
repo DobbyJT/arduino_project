@@ -18,6 +18,10 @@ PID control will be functioning and show each function for p, i, d.
 
 Since, there are many systems and interrupts, we decided to devide hardware to behave efficiently.
 
-One for activating encoder motor, in order words, chassis and the other for servo motor.
+The Arduino_mega_dc is about main motor and it has code about pid for synchronizing two motors and pid for target speed.
 
-We also put our subsystems and trials in subsystem folder.
+The Arduino_uno_regen is code for systme of regenerative braking. Since we use relay module, there should be code with it to divide voltage in and out. 
+
+The Arduino_uno_servo is code for steering and lane tracing. 
+
+We also put our subsystems and trials in subsystem folder. 
