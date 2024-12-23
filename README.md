@@ -64,3 +64,4 @@ The regenerative braking system design integrates a **rectifier circuit** for vo
 
 ---
 
+![Regenerative System Circuit](subsystem_folder/KakaoTalk_20240520_142333571_02.jpg)
